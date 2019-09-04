@@ -1,17 +1,12 @@
-"""
-Clone of 2048 game.
-"""
 
-#import poc_2048_gui
 
-# Directions, DO NOT MODIFY
+# Directions
 UP = 1
 DOWN = 2
 LEFT = 3
 RIGHT = 4
 
 # Offsets for computing tile indices in each direction.
-# DO NOT MODIFY this dictionary.
 OFFSETS = {UP: (1, 0),
            DOWN: (-1, 0),
            LEFT: (0, 1),
@@ -176,12 +171,3 @@ class TwentyFortyEight:
         """
         return self._initial_grid[row][col]
 
-#c = TwentyFortyEight(4,4)
-#print(c)
-#c.move(3)
-#print(c)
-#c.move(1)
-#print(c)
-
-#print(c.get_grid_height())
-#poc_2048_gui.run_gui(TwentyFortyEight(4, 4))
